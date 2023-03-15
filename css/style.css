@@ -53,20 +53,20 @@ strong {
 
 /* navigasi */
 .navigasi {
-  z-index: 10000;
   position: fixed;
   bottom: 0;
 }
 .navigasi ul {
   list-style: none;
   text-decoration: none;
+  display: block;
 }
 
 .wa-logo img {
   width: 15%;
 }
 .up img {
-  width: 13%;
+  width: 15%;
 }
 .to-top {
   opacity: 0;
