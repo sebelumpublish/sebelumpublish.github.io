@@ -8,8 +8,6 @@
 body {
   overflow-x: hidden;
   background-image: url(../img/bg-testimoni.jpg);
-  position: absolute;
-  top: 0;
 }
 /* header */
 
@@ -56,8 +54,6 @@ strong {
 /* navigasi */
 .navigasi {
   z-index: 10000;
-  position: fixed;
-  bottom: 0;
 }
 .navigasi ul {
   list-style: none;
