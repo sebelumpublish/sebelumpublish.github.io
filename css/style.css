@@ -48,9 +48,7 @@ strong {
 /* end header */
 
 /* baner */
-.hero {
-  box-shadow: 5px 5px 5px rgba(37, 37, 37, 0.5);
-}
+
 /* end baner */
 
 /* navigasi */
@@ -69,8 +67,6 @@ strong {
 }
 .up img {
   width: 13%;
-  padding-left: 10px;
-  padding-top: 10px;
 }
 .to-top {
   opacity: 0;
@@ -218,7 +214,6 @@ p {
 @media (max-width: 768px) {
   html {
     font-size: 62, 5%;
-    overflow-x: hiden;
   }
 
   h5 {
@@ -258,7 +253,6 @@ p {
 @media (max-width: 450px) {
   html {
     font-size: 40%;
-    overflow-x: hiden;
   }
   .paket-wisata .col-md-3 {
     width: 100%;
