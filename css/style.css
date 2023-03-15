@@ -9,6 +9,7 @@ body {
   overflow-x: hidden;
   background-image: url(../img/bg-testimoni.jpg);
   position: absolute;
+  top: 0;
 }
 /* header */
 
