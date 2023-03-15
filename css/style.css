@@ -54,6 +54,8 @@ strong {
 /* navigasi */
 .navigasi {
   z-index: 10000;
+  position: fixed;
+  bottom: 0;
 }
 .navigasi ul {
   list-style: none;
