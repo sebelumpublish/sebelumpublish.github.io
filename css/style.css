@@ -202,7 +202,7 @@ p {
 }
 .footer-medsos img {
   width: 50px;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* end footer */
@@ -257,7 +257,7 @@ p {
 /* handphone */
 @media (max-width: 450px) {
   html {
-    font-size: 35%;
+    font-size: 60%;
   }
 
   .paket-wisata .col-md-3 {
@@ -265,10 +265,5 @@ p {
   }
   .artikel .col-md-3 {
     width: 100%;
-  }
-  .footer-medsos img {
-    width: 20px;
-    padding: 1px;
-    padding-right: 10%;
   }
 }
