@@ -55,11 +55,16 @@ strong {
 .navigasi {
   position: fixed;
   bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+.nabigasi ul li img {
+  display: flex;
+  justify-content: right;
 }
 .navigasi ul {
   list-style: none;
   text-decoration: none;
-  display: block;
 }
 
 .wa-logo img {
