@@ -53,29 +53,6 @@ strong {
 }
 /* end baner */
 
-/* navigasi */
-.navigasi {
-  z-index: 10000;
-  position: fixed;
-  bottom: 0;
-}
-
-.wa-logo img {
-  width: 15%;
-}
-.up img {
-  width: 6%;
-}
-.to-top {
-  opacity: 0;
-  transition: all 0.7;
-}
-.to-top.active {
-  opacity: 0.8;
-  pointer-events: auto;
-}
-/* end navigasi */
-
 /* page tentang-kami */
 /* main */
 
@@ -212,6 +189,7 @@ p {
 @media (max-width: 768px) {
   html {
     font-size: 62, 5%;
+    overflow-x: hidden;
   }
 
   h5 {
@@ -251,6 +229,7 @@ p {
 @media (max-width: 450px) {
   html {
     font-size: 40%%;
+    overflow-x: hidden;
   }
   .paket-wisata .col-md-3 {
     width: 100%;
