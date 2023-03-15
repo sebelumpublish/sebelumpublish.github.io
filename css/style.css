@@ -47,38 +47,38 @@ strong {
 
 /* end header */
 
-/* navigasi */
+/* baner */
+.hero {
+  box-shadow: 5px 5px 5px rgba(37, 37, 37, 0.5);
+}
+/* end baner */
 
+/* navigasi */
 .navigasi {
   z-index: 10000;
+  position: fixed;
+  bottom: 0;
 }
 
 .wa-logo img {
-  width: 5%;
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
+  width: 15%;
 }
 .up img {
-  width: 3%;
+  width: 6%;
 }
 .to-top {
   opacity: 0;
   transition: all 0.7;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: flex;
 }
 .to-top.active {
   opacity: 0.8;
   pointer-events: auto;
-  z-index: 100000;
 }
 /* end navigasi */
 
 /* page tentang-kami */
 /* main */
+
 .main h1 {
   font-size: 50px !important;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
