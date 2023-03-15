@@ -54,12 +54,13 @@ strong {
 /* navigasi */
 .navigasi {
   z-index: 10000;
-  position: fixed;
-  bottom: 0;
+  position: relatif;
 }
 .navigasi ul {
   list-style: none;
   text-decoration: none;
+  position: fixed;
+  bottom: 0;
 }
 
 .wa-logo img {
@@ -108,7 +109,6 @@ p {
   background-image: url(../img/bg-unit.jpg);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
 }
-
 .kartu a {
   background-color: rgb(240, 185, 34);
   font-family: "Segoe UI";
@@ -185,12 +185,6 @@ p {
   cursor: pointer;
 }
 
-/* endartikel */
-
-/* Gallery */
-
-/* end testimoni */
-
 /* footer */
 .footer ul {
   list-style: none;
@@ -259,5 +253,8 @@ p {
   }
   .artikel .col-md-3 {
     width: 100%;
+  }
+  .navigasi {
+    display: none;
   }
 }
