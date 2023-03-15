@@ -8,7 +8,6 @@
 body {
   overflow-x: hidden;
   background-image: url(../img/bg-testimoni.jpg);
-  position: relative;
 }
 /* header */
 
@@ -219,6 +218,7 @@ p {
 @media (max-width: 768px) {
   html {
     font-size: 62, 5%;
+    overflow-x: hiden;
   }
 
   h5 {
@@ -257,7 +257,8 @@ p {
 /* handphone */
 @media (max-width: 450px) {
   html {
-    font-size: 40%%;
+    font-size: 40%;
+    overflow-x: hiden;
   }
   .paket-wisata .col-md-3 {
     width: 100%;
