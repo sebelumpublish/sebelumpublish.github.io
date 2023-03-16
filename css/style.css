@@ -235,15 +235,6 @@ p {
   .artikel h6 {
     padding-top: 10px;
   }
-  .why img {
-    width: 20%;
-  }
-  .why p {
-    font-size: 1rem;
-  }
-  .why h5 {
-    font-size: 2rem;
-  }
 }
 
 /* handphone */
@@ -259,14 +250,5 @@ p {
   }
   .medsos img {
     width: 20px;
-  }
-  .why img {
-    width: 40%;
-  }
-  .why p {
-    font-size: 10px;
-  }
-  .why h5 {
-    font-size: 1rem;
   }
 }
