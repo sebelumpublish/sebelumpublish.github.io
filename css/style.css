@@ -139,8 +139,11 @@ h5 {
   padding-top: 10px;
 }
 .why img {
-  width: 100%;
+  width: 80%;
+  border-right: 1px solid rgb(170, 164, 164);
 }
+
+.card-
 /* end why choose us */
 
 /* paket wisata */
