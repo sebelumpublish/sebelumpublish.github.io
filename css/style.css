@@ -254,4 +254,7 @@ p {
   .artikel .col-md-3 {
     width: 100%;
   }
+  .medsos img {
+    width: 20px;
+  }
 }
