@@ -31,10 +31,10 @@ nav a {
 
 .logo {
   width: 210px;
-  transition: all 0.7;
+  transition: all 1s;
 }
 .logo.active {
-  width: 130px;
+  width: 150px;
 }
 
 .navbar-nav a {
@@ -52,7 +52,7 @@ strong {
 /* end baner */
 
 /* navigasi */
-.navigasi {
+/* .navigasi {
   z-index: 10000;
   position: relatif;
 }
@@ -61,7 +61,7 @@ strong {
   text-decoration: none;
   position: fixed;
   bottom: 0;
-}
+} */
 
 .wa-logo img {
   width: 15%;
