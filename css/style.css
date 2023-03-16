@@ -235,6 +235,13 @@ p {
   .artikel h6 {
     padding-top: 10px;
   }
+  .box-order img {
+    width: 30%;
+  }
+  .box-order h4,
+  p {
+    font-size: 2rem;
+  }
 }
 
 /* handphone */
