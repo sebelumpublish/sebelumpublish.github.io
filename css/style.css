@@ -52,7 +52,7 @@ strong {
 /* end baner */
 
 /* navigasi */
-/* .navigasi {
+.navigasi {
   z-index: 10000;
   position: relatif;
 }
@@ -61,7 +61,7 @@ strong {
   text-decoration: none;
   position: fixed;
   bottom: 0;
-} */
+} 
 
 .wa-logo img 
   width: 15%;
