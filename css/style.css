@@ -204,6 +204,10 @@ p {
     font-size: 62, 5%;
   }
 
+  .header .nohp {
+    font-size: 1.5rem !important;
+  }
+
   h5 {
     width: 80%;
   }
