@@ -52,10 +52,7 @@ strong {
 /* end baner */
 
 /* navigasi */
-.navigasi {
-  z-index: 10000;
-  position: relatif;
-}
+
 .navigasi ul {
   list-style: none;
   text-decoration: none;
