@@ -259,6 +259,9 @@ p {
   html {
     font-size: 50%;
   }
+  body {
+    overflow-x: hidden;
+  }
   .paket-wisata .col-md-3 {
     width: 100%;
   }
