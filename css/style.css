@@ -265,10 +265,14 @@ p {
   .medsos img {
     width: 20px;
   }
+
+  .why img {
+    width: 35%;
+  }
   .box-why h5 {
     font-size: 25px;
   }
   .box-why p {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
