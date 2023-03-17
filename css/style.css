@@ -143,8 +143,13 @@ p {
 .box-why {
   margin: 10px;
 }
-
 /* end why choose us */
+
+/* galery */
+.galery {
+  width: 40%;
+}
+/* end galery */
 
 /* paket wisata */
 
