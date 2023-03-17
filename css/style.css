@@ -288,4 +288,7 @@ p {
     font-size: 12px;
     padding: 1px 10%;
   }
+  .footer-medsos img {
+    width: 15px;
+  }
 }
