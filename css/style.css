@@ -276,8 +276,16 @@ p {
   .why img {
     width: 30%;
   }
-
+  .why h5,
+  p {
+    font-size: 1rem;
+  }
+  .artikel h6,
+  p {
+    font-size: 1rem;
+  }
   .footer p {
+    font-size: 12px;
     padding: 1px 10%;
   }
 }
