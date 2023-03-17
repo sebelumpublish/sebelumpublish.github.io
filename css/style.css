@@ -254,7 +254,7 @@ p {
 /* handphone */
 @media (max-width: 450px) {
   html {
-    font-size: 42%;
+    font-size: 44%;
   }
   .paket-wisata .col-md-3 {
     width: 100%;
@@ -271,12 +271,12 @@ p {
   }
 
   .why img {
-    width: 35%;
+    width: 30%;
   }
   .box-why h5 {
-    font-size: 25px;
+    font-size: 22px;
   }
   .box-why p {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
