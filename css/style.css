@@ -254,7 +254,7 @@ p {
 /* handphone */
 @media (max-width: 450px) {
   html {
-    font-size: 40%;
+    font-size: 42%;
   }
   .paket-wisata .col-md-3 {
     width: 100%;
@@ -264,6 +264,10 @@ p {
   }
   .medsos img {
     width: 20px;
+  }
+
+  .navbar ul li a {
+    font-size: 15px;
   }
 
   .why img {
