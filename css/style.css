@@ -31,10 +31,10 @@ nav a {
 
 .logo {
   width: 210px;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 .logo.active {
-  width: 150px;
+  transform: scale(0.7);
 }
 
 .navbar-nav a {
@@ -46,10 +46,6 @@ strong {
 }
 
 /* end header */
-
-/* baner */
-
-/* end baner */
 
 /* navigasi */
 
@@ -124,23 +120,29 @@ p {
 
 /* end unit Mobil */
 
-/* why choose us */
+/* cara pemesanan */
 .box-order {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
+/* end cara pemesanan */
+
+/* why choose us */
+
 .why {
-  background-image: url(../img/dfb.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   padding-bottom: 70px;
 }
-h5 {
-  font-size: 4rem;
-  padding-top: 10px;
+.why P {
+  font-size: 1.3rem;
+}
+.why h4 {
+  font-size: 2rem;
 }
 .why img {
-  width: 100%;
-  padding: 20px;
+  width: 45%;
+  padding: 15px;
+}
+.box-why {
+  margin: 10px;
 }
 
 /* end why choose us */
