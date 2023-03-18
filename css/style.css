@@ -280,9 +280,7 @@ p {
   html {
     font-size: 55%;
   }
-  body {
-    overflow-x: hidden;
-  }
+
   .paket-wisata .col-md-3 {
     width: 100%;
   }
@@ -297,6 +295,13 @@ p {
     font-size: 15px;
   }
 
+  .main h1,
+  strong {
+    font-size: 14p;
+  }
+  .main p {
+    font-size: 1.8rem;
+  }
   .why img {
     width: 30%;
   }
