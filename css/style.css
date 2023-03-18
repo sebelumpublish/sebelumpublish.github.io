@@ -74,7 +74,10 @@ strong {
 
 /* page tentang-kami */
 /* main */
-
+,
+main img {
+  width: 100%;
+}
 .main h1 {
   font-size: 50px !important;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -209,7 +212,7 @@ p {
   list-style: none;
 }
 .footer-medsos img {
-  width: 30%;
+  width: 25%;
 }
 
 /* end footer */
