@@ -186,12 +186,16 @@ p {
 }
 
 /* footer */
+.footer h6,
+p {
+  font-size: 1.3rem !important;
+}
 .footer ul {
   list-style: none;
 }
 .footer-medsos img {
-  width: 50px;
-  padding-left: 20px;
+  width: 20%;
+  padding: 40px 0;
 }
 
 /* end footer */
@@ -292,6 +296,6 @@ p {
     padding: 1px 10%;
   }
   .footer-medsos img {
-    width: 15px;
+    width: 80%;
   }
 }
