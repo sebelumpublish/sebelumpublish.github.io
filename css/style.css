@@ -145,10 +145,6 @@ p {
 }
 /* end why choose us */
 
-/* galery */
-
-/* end galery */
-
 /* paket wisata */
 
 .paket-wisata h5 {
@@ -165,9 +161,19 @@ p {
 /* end paket wisata */
 
 /* artikel */
+.artikel {
+  background-image: url(../img/bg-unit.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 .artikel img {
   width: 100%;
+}
+
+.artikel h5 {
+  border-bottom: 1px solid grey;
 }
 
 .artikel h6,
@@ -176,14 +182,23 @@ p {
 }
 .artikel .col-md-2 {
   border: 1px solid rgb(196, 189, 189);
-  box-shadow: 5px 5px 5px rgba(43, 42, 42, 0.5);
+  box-shadow: 5px 5px 5px rgba(109, 108, 108, 0.5);
   margin: 10px;
+  background-image: url(../img/bg-testimoni.jpg);
 }
 
 .artikel a:hover {
   font-weight: bold;
   cursor: pointer;
 }
+
+/* galery */
+.galery h5 {
+  font-size: 3.2rem;
+  display: flex;
+  justify-content: center;
+}
+/* end galery */
 
 /* footer */
 .footer h6,
