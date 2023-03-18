@@ -195,7 +195,6 @@ p {
 }
 .footer-medsos img {
   width: 20%;
-  padding: 2px;
 }
 
 /* end footer */
@@ -287,9 +286,14 @@ p {
   p {
     font-size: 1rem;
   }
+
+  .paket-wisata h6,
+  a {
+    font-size: 1.4rem;
+  }
   .artikel h6,
   p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   .footer p {
     font-size: 10px;
