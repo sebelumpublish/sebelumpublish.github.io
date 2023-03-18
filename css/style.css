@@ -278,7 +278,7 @@ p {
 /* handphone */
 @media (max-width: 450px) {
   html {
-    font-size: 50%;
+    font-size: 55%;
   }
   body {
     overflow-x: hidden;
