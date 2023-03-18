@@ -195,7 +195,7 @@ p {
 }
 .footer-medsos img {
   width: 20%;
-  padding: 40px 0;
+  padding: 2px;
 }
 
 /* end footer */
@@ -289,13 +289,13 @@ p {
   }
   .artikel h6,
   p {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .footer p {
     font-size: 10px;
     padding: 1px 10%;
   }
   .footer-medsos img {
-    width: 80%;
+    width: 60%;
   }
 }
