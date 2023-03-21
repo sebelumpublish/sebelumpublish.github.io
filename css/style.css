@@ -10,7 +10,9 @@ body {
   background-image: url(../img/bg-testimoni.jpg);
 }
 /* header */
-
+.header {
+  height: 60px;
+}
 .medsos {
   position: absolute;
   top: 0;
@@ -290,7 +292,7 @@ p {
     width: 100%;
   }
   .medsos img {
-    width: 20px;
+    width: 40px;
   }
 
   .navbar ul li a {
