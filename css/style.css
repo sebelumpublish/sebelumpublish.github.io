@@ -15,9 +15,9 @@ body {
 }
 
 .medsos {
-  position: absolute;
+  position: absolute !important;
   top: 0;
-  padding: 0;
+  right: 0;
 }
 .medsos img {
   width: 60px;
