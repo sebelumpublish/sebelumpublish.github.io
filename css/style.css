@@ -10,17 +10,15 @@ body {
   background-image: url(../img/bg-testimoni.jpg);
 }
 /* header */
-.header {
-  height: 60px;
-}
+
 .medsos {
   position: absolute;
   top: 0;
   right: 0;
 }
 .medsos img {
-  width: 60px;
-  padding: 10px;
+  width: 40px;
+  padding: 5px;
 }
 
 .navbar-brand:hover {
@@ -33,10 +31,10 @@ nav a {
 
 .logo {
   width: 210px;
-  transition: all 0.5s;
+  transition: all 0.7;
 }
 .logo.active {
-  transform: scale(0.7);
+  width: 130px;
 }
 
 .navbar-nav a {
@@ -51,34 +49,36 @@ strong {
 
 /* navigasi */
 
-.navigasi ul {
-  list-style: none;
-  text-decoration: none;
-  position: fixed;
-  bottom: 0;
+.navigasi {
+  z-index: 10000;
 }
 
 .wa-logo img {
-  width: 15%;
+  width: 5%;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
 }
 .up img {
-  width: 15%;
+  width: 3%;
 }
 .to-top {
   opacity: 0;
   transition: all 0.7;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
 }
 .to-top.active {
   opacity: 0.8;
   pointer-events: auto;
+  z-index: 100000;
 }
 /* end navigasi */
 
 /* page tentang-kami */
 /* main */
-main img {
-  width: 100%;
-}
 .main h1 {
   font-size: 50px !important;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -106,6 +106,7 @@ p {
   background-image: url(../img/bg-unit.jpg);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
 }
+
 .kartu a {
   background-color: rgb(240, 185, 34);
   font-family: "Segoe UI";
@@ -124,31 +125,24 @@ p {
 
 /* end unit Mobil */
 
-/* cara pemesanan */
+/* why choose us */
+
 .box-order {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
-/* end cara pemesanan */
-
-/* why choose us */
-
 .why {
+  background-image: url(../img/dfb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 70px;
 }
-.why P {
-  font-size: 1rem;
-}
-.why h4 {
-  font-size: 3.1rem;
-}
-.why h5 {
-  font-size: 1.9rem;
+
+h5 {
+  font-size: 4rem;
+  padding-top: 10px;
 }
 .why img {
-  width: 40%;
-}
-.box-why {
-  margin: 10px;
+  width: 100%;
 }
 /* end why choose us */
 
@@ -161,6 +155,7 @@ p {
 .paket-wisata .col-md-3 {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
+
 .paket-wisata h6 {
   background-color: rgb(228, 228, 0);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -168,19 +163,9 @@ p {
 /* end paket wisata */
 
 /* artikel */
-.artikel {
-  background-image: url(../img/bg-unit.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 
 .artikel img {
   width: 100%;
-}
-
-.artikel h5 {
-  border-bottom: 1px solid grey;
 }
 
 .artikel h6,
@@ -189,9 +174,8 @@ p {
 }
 .artikel .col-md-2 {
   border: 1px solid rgb(196, 189, 189);
-  box-shadow: 5px 5px 5px rgba(109, 108, 108, 0.5);
+  box-shadow: 5px 5px 5px rgba(43, 42, 42, 0.5);
   margin: 10px;
-  background-image: url(../img/bg-testimoni.jpg);
 }
 
 .artikel a:hover {
@@ -199,24 +183,19 @@ p {
   cursor: pointer;
 }
 
-/* galery */
-.galery h5 {
-  font-size: 3.2rem;
-  display: flex;
-  justify-content: center;
-}
-/* end galery */
+/* endartikel */
+
+/* Gallery */
+
+/* end testimoni */
 
 /* footer */
-.footer h6,
-p {
-  font-size: 1.3rem !important;
-}
 .footer ul {
   list-style: none;
 }
 .footer-medsos img {
-  width: 25%;
+  width: 50px;
+  padding-left: 20px;
 }
 
 /* end footer */
@@ -233,10 +212,6 @@ p {
 @media (max-width: 768px) {
   html {
     font-size: 62, 5%;
-  }
-
-  .header .nohp {
-    font-size: 1.5rem !important;
   }
 
   h5 {
@@ -270,63 +245,17 @@ p {
   .artikel h6 {
     padding-top: 10px;
   }
-  .box-order img {
-    width: 50%;
-  }
-  .box-order h4,
-  p {
-    font-size: 2rem;
-  }
 }
 
 /* handphone */
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    font-size: 40%%;
   }
-
   .paket-wisata .col-md-3 {
     width: 100%;
   }
   .artikel .col-md-3 {
     width: 100%;
-  }
-  .medsos img {
-    width: 40px;
-  }
-
-  .navbar ul li a {
-    font-size: 15px;
-  }
-
-  .main h1,
-  strong {
-    font-size: 14p;
-  }
-  .main p {
-    font-size: 1.8rem;
-  }
-  .why img {
-    width: 30%;
-  }
-  .why h5,
-  p {
-    font-size: 1rem;
-  }
-
-  .paket-wisata h6,
-  a {
-    font-size: 1.4rem;
-  }
-  .artikel h6,
-  p {
-    font-size: 1.4rem;
-  }
-  .footer p {
-    font-size: 10px;
-    padding: 1px 10%;
-  }
-  .footer-medsos img {
-    width: 40%;
   }
 }
