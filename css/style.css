@@ -296,7 +296,9 @@ p {
   .navbar ul li a {
     font-size: 15px;
   }
-
+  .medsos img {
+    width: 40px;
+  }
   .main h1,
   strong {
     font-size: 14p;
