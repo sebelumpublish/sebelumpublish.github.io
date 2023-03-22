@@ -14,6 +14,11 @@ body {
   height: 60px;
 }
 
+.medsos {
+  position: absolute;
+  top: 0;
+  padding: 0;
+}
 .medsos img {
   width: 60px;
   padding: 10px;
@@ -286,9 +291,6 @@ p {
   }
   .artikel .col-md-3 {
     width: 100%;
-  }
-  .medsos img {
-    width: 40px;
   }
 
   .navbar ul li a {
