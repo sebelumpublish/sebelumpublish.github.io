@@ -99,23 +99,42 @@ main img {
   background-position: center;
   background-size: cover;
 }
-.unit h3,
-p {
-  text-align: left;
+.unit h2 {
+  color: rgb(197, 211, 8);
 }
+
 .kartu {
   background-image: url(../img/bg-unit.jpg);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
 }
+.kartu .col-xl-4 {
+  margin: 50px;
+}
+.kartu h3 {
+  color: rgb(61, 59, 59);
+}
+.kartu ul li {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(233, 232, 232);
+  padding: 5px;
+  border-bottom: 1px solid rgb(189, 185, 185);
+  font-size: 1.2rem;
+}
+
 .kartu a {
-  background-color: rgb(240, 185, 34);
-  font-family: "Segoe UI";
-  font-size: 19px !important;
+  background-color: rgb(188, 189, 185);
+  font-family: "arial";
+  font-weight: bold;
+  font-size: 19px;
+  color: black;
+  text-decoration: none;
+  padding: 20px;
 }
-.kartu img {
-  width: 90%;
-  border-radius: 10%;
+.kartu a:hover {
+  background-color: rgb(36, 240, 255);
 }
+
 .next-page a {
   color: rgb(216, 216, 215);
 }
@@ -138,12 +157,13 @@ p {
 }
 .why P {
   font-size: 1rem;
+  padding: 10px;
 }
 .why h4 {
   font-size: 3.1rem;
 }
 .why h5 {
-  font-size: 1.9rem;
+  font-size: 1.6rem;
 }
 .why img {
   width: 40%;
@@ -155,17 +175,30 @@ p {
 
 /* paket wisata */
 
-.paket-wisata h5 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.paket-wisata .col-md-4 {
+  margin-bottom: 50px;
 }
 
-.paket-wisata .col-md-3 {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+.paket-wisata h4 {
+  font-family: "Segoe UI";
+  font-weight: bold;
 }
+
 .paket-wisata h6 {
-  background-color: rgb(228, 228, 0);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 252, 46);
+  font-family: Montserrat;
+  font-size: 2rem;
+  padding: 15px;
+  color: rgb(37, 37, 37);
 }
+
+.paket-wisata a {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding: 10px;
+}
+
 /* end paket wisata */
 
 /* artikel */
