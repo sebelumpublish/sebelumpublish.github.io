@@ -132,7 +132,7 @@ main img {
   padding: 20px;
 }
 .kartu a:hover {
-  background-color: rgb(36, 240, 255);
+  background-color: rgb(240, 255, 36);
 }
 
 .next-page a {
