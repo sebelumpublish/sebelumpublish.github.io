@@ -98,7 +98,6 @@ main img {
 }
 .text-seo h1 {
   font-family: "montzerat";
-  font-weight: 200;
 }
 /* unit Mobil */
 .unit {
@@ -311,10 +310,9 @@ p {
 
 /* handphone */
 @media (max-width: 450px) {
-  html {
-    font-size: 55%;
+  .navbar {
+    margin-top: 0;
   }
-
   .paket-wisata .col-md-3 {
     width: 100%;
   }
