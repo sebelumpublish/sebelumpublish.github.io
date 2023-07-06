@@ -277,17 +277,10 @@ p {
     width: 80%;
   }
 
-  .kartu {
-  }
-  .unit h3 {
-    font-size: 15px !important;
-  }
   .unit p {
     font-size: 20px !important;
   }
-  .unit a {
-    font-size: 12px !important;
-  }
+
   table {
     margin-bottom: 10px;
   }
@@ -338,9 +331,7 @@ p {
   .main p {
     font-size: 1.8rem;
   }
-  .why img {
-    width: 30%;
-  }
+
   .why h5,
   p {
     font-size: 1rem;
