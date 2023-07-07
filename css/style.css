@@ -169,6 +169,7 @@ main img {
 }
 .why h4 {
   font-size: 3.1rem;
+  color: rgb(215, 255, 68);
 }
 .why h5 {
   font-size: 1.6rem;
@@ -190,63 +191,45 @@ main img {
 .paket-wisata h4 {
   font-family: "Segoe UI";
   font-weight: bold;
+  border-bottom: 1px solid rgb(216, 213, 213);
 }
 
 .paket-wisata h6 {
-  background-color: rgb(255, 252, 46);
-  font-family: Montserrat;
+  background-color: rgb(236, 232, 0);
   font-size: 2rem;
   padding: 15px;
-  color: rgb(37, 37, 37);
+  color: rgb(78, 78, 78);
+  font-weight: 600;
 }
 
 .paket-wisata a {
   font-family: "Segoe UI";
   font-weight: bold;
   font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(214, 203, 203);
+  color: rgb(97, 100, 102);
   padding: 10px;
+  text-decoration: none;
+}
+.paket-wisata a:hover {
+  background-color: rgb(159, 252, 255);
 }
 
 /* end paket wisata */
 
-/* artikel */
-.artikel {
-  background-image: url(../img/bg-unit.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.artikel img {
-  width: 100%;
-}
-
-.artikel h5 {
-  border-bottom: 1px solid grey;
-}
-
-.artikel h6,
-p {
-  font-family: "Segoe UI";
-}
-.artikel .col-md-2 {
-  border: 1px solid rgb(196, 189, 189);
-  box-shadow: 5px 5px 5px rgba(109, 108, 108, 0.5);
-  margin: 10px;
-  background-image: url(../img/bg-testimoni.jpg);
-}
-
-.artikel a:hover {
-  font-weight: bold;
-  cursor: pointer;
-}
-
 /* galery */
+.galery {
+  background-color: rgb(45, 46, 48);
+}
 .galery h5 {
   font-size: 3.2rem;
   display: flex;
   justify-content: center;
+  color: rgb(245, 204, 21);
 }
+
 /* end galery */
 
 /* footer */
@@ -311,20 +294,12 @@ p {
 
 /* handphone */
 @media (max-width: 450px) {
-  .header {
-    margin: 0;
-    padding: 0;
-  }
-  .navbar {
-    margin-top: 0;
-  }
-
   .medsos img {
     width: 40px;
   }
   .main h1,
   strong {
-    font-size: 14p;
+    font-size: 14px;
   }
   .main p {
     font-size: 1.8rem;
@@ -339,10 +314,7 @@ p {
   a {
     font-size: 1.4rem;
   }
-  .artikel h6,
-  p {
-    font-size: 1.4rem;
-  }
+
   .footer p {
     font-size: 10px;
     padding: 1px 10%;
