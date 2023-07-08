@@ -99,9 +99,7 @@ main img {
 
 
 /* unit Mobil */
-.unit h2{
-  font-weight: bold;
-}
+
 .kartu h3{
   color: rgb(239, 243, 247);
   background-color: rgb(48, 47, 47);
@@ -149,6 +147,10 @@ main img {
 .box-order {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
+.box-order h4{
+  font-size: 2rem;
+  padding-bottom: 5px;
+}
 /* end cara pemesanan */
 
 /* why choose us */
@@ -160,12 +162,12 @@ main img {
   font-size: 1rem;
   padding: 10px;
 }
-.why h4 {
+.why h3 {
   font-size: 3.1rem;
-  color: rgb(215, 255, 68);
+  color: rgb(27, 27, 27);
 }
-.why h5 {
-  font-size: 1.6rem;
+.why h4 {
+  font-size: 1.7rem;
 }
 .why img {
   width: 40%;
