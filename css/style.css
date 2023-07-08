@@ -99,6 +99,9 @@ main img {
 
 
 /* unit Mobil */
+.unit h2{
+  font-weight: bold;
+}
 .kartu h3{
   color: rgb(239, 243, 247);
   background-color: rgb(48, 47, 47);
