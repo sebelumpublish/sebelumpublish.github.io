@@ -96,41 +96,35 @@ main img {
 /* end page tentang-kami */
 
 /* text seo */
-.text-seo {
-  padding: 70px 0 50px 0 !important;
-  background-color: rgb(245, 248, 250);
-}
+
 .text-seo h1 {
-  color: rgb(73, 74, 75);
+  color: rgb(234, 236, 238);
+  padding-top:100px;
+}
+.text-seo p{
+  padding-bottom: 100px;
+  font-size: 1.6rem!important;
 }
 /* unit Mobil */
-.unit {
-  background-image: url(../img/bg-unit.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.unit h2 {
-  color: rgb(197, 211, 8);
+.kartu h3{
+  color: rgb(239, 243, 247);
+  background-color: rgb(48, 47, 47);
+  font-weight: 600;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.5rem;
 }
 
-.kartu {
-  background-image: url(../img/bg-unit.jpg);
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
-}
-.kartu .col-xl-4 {
-  margin: 50px;
-}
-.kartu h3 {
-  color: rgb(61, 59, 59);
+.kartu ul{
+  padding-top: 30px;
 }
 .kartu ul li {
   list-style: none;
   text-decoration: none;
-  color: rgb(233, 232, 232);
-  padding: 5px;
-  border-bottom: 1px solid rgb(189, 185, 185);
-  font-size: 1.2rem;
+  color: rgb(58, 56, 56);
+  border-bottom: 1px solid rgb(160, 156, 156);
+  font-size: 1.1rem;
+  padding: 10px;
 }
 
 .kartu a {
@@ -198,11 +192,8 @@ main img {
 }
 
 .paket-wisata h6 {
-  background-color: rgb(46, 46, 45);
-  font-size: 2rem;
-  padding: 15px;
-  color: rgb(241, 237, 237);
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 .paket-wisata a {
