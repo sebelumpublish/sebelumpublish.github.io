@@ -180,9 +180,18 @@ main img {
 .paket-wisata .col-md-4 {
   margin-bottom: 50px;
 }
+
 .pin img{
+  padding-top: 5px;
+  height: 40px;
+}
+.itinerary img, .price img{
   height: 30px;
 }
+.price{
+  margin-left: 40px;
+}
+
 .paket-wisata h4 {
   font-family: "Segoe UI";
   font-weight: bold;
@@ -208,7 +217,7 @@ main img {
   text-decoration: none;
 }
 .paket-wisata a:hover {
-  background-color: rgb(159, 252, 255);
+  background-color: rgb(255, 238, 0);
 }
 
 /* end paket wisata */
