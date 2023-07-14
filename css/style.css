@@ -132,14 +132,22 @@ strong {
 /* end unit Mobil */
 
 /* cara pemesanan */
-.box-order {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+
+.order h3{
+  color: rgb(207, 209, 212);
 }
 .box-order h4{
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 5px;
+  color: rgb(89, 92, 92);
+}
+.box-order p{
+  font-size: 1.1rem!important;
+  color: rgb(79, 80, 80);
 }
 /* end cara pemesanan */
+
+
 
 /* why choose us */
 
@@ -147,16 +155,16 @@ strong {
   padding-bottom: 70px;
 }
 .why P {
-  font-size: 0.6rem;
-  padding: 10px;
+  font-size: 1rem!important;
+
 }
 .why h3 {
   font-size: 2.8rem;
-  color: rgb(27, 27, 27);
+  color: rgb(48, 47, 47);
   font-weight: 600;
 }
 .why h4 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 .why img {
   width: 40%;
@@ -171,7 +179,6 @@ strong {
 .paket-wisata .col-md-4 {
   margin-bottom: 50px;
 }
-
 .pin img{
   padding-top: 5px;
   height: 40px;
@@ -220,8 +227,23 @@ strong {
 /*end tentang kami-page*/
 
 /* galery */
-
-
+.galery{
+  background-image: url(../img/bg-tes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.galery h3{
+font-size: 3rem!important;
+border-bottom: 1px solid rgb(216, 216, 216);
+width: 190px;
+padding-top: 50px!important;
+color:rgb(95, 100, 104);
+}
+.description{
+  font-size: 1rem;
+  font-family: arial;
+  color:rgb(109, 114, 119)
+}
 
 /* end galery */
 
