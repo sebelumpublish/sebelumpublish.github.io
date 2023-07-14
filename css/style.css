@@ -76,23 +76,14 @@ strong {
 }
 /* end navigasi */
 
-/* page tentang-kami */
-/* main */
-main img {
-  width: 100%;
-}
-.main h1 {
-  font-size: 50px !important;
-}
-.main strong {
-  color: rgb(209, 0, 0) !important;
-  font-size: 28px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-/* end-main */
-/* end page tentang-kami */
 
 /* text seo */
+.text-seo p{
+  font-size: 1.5rem!important;
+  font-family: arial;
+  letter-spacing: 1px;
+}
+/* end text seo */
 
 
 /* unit Mobil */
@@ -221,6 +212,12 @@ main img {
 }
 
 /* end paket wisata */
+
+/*tentang kami-page*/
+
+
+
+/*end tentang kami-page*/
 
 /* galery */
 
