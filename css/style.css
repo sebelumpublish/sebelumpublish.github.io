@@ -57,14 +57,14 @@ strong {
   position: fixed;
   bottom: 0;
   padding left:0;
-  mar
+  
 }
 
 .wa-logo img {
-  width: 15%;
+  width: 11%;
 }
 .up img {
-  width: 15%;
+  width: 11%;
 }
 .to-top {
   opacity: 0;
@@ -78,8 +78,9 @@ strong {
 
 
 /* text seo */
+
 .text-seo p{
-  font-size: 1.5rem!important;
+  font-size: 1.4rem!important;
   font-family: arial;
   letter-spacing: 1px;
 }
@@ -132,13 +133,17 @@ strong {
 /* end unit Mobil */
 
 /* cara pemesanan */
-
+.box-order{
+  border-radius: 10px;
+}
+.box-order img{
+  padding-top: 10px;
+}
 .order h3{
   color: rgb(207, 209, 212);
 }
 .box-order h4{
   font-size: 1.5rem;
-  padding-bottom: 5px;
   color: rgb(89, 92, 92);
 }
 .box-order p{
@@ -221,8 +226,11 @@ strong {
 /* end paket wisata */
 
 /*tentang kami-page*/
-
-
+.tentang-main p{
+font-family: arial;
+font-size: 1.3rem!important;
+letter-spacing: 1px;
+}
 
 /*end tentang kami-page*/
 
@@ -248,16 +256,27 @@ color:rgb(95, 100, 104);
 /* end galery */
 
 /* footer */
-.footer h6,
-p {
-  font-size: 1.3rem !important;
+.footer h6{
+  font-size: 1rem !important;
+  font-family: arial;
 }
-.footer ul {
-  list-style: none;
+
+.footer p{
+  font-size: 0.8rem !important;
+  font-family: arial;
 }
-.footer-medsos img {
-  width: 25%;
+
+.medsos-footer img {
+  width: 5%;
+  
 }
+.logo-footer {
+  width: 50%;
+}
+.wa-footer{
+ width: 5%;
+}
+
 
 /* end footer */
 
@@ -277,6 +296,9 @@ p {
 
   .header .nohp {
     font-size: 1.5rem !important;
+  }
+  .navbar{
+    margin-top: 0;
   }
 
   .unit p {
