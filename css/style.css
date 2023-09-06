@@ -120,14 +120,14 @@ strong {
   padding: 20px;
 }
 .kartu a:hover {
-  background-color: rgb(240, 255, 36);
+  background-color: rgb(252, 255, 71);
 }
 
 .next-page a {
   color: rgb(216, 216, 215);
 }
 .next-page a:hover {
-  color: rgb(255, 255, 138);
+  color: rgb(238, 238, 58);
 }
 
 /* end unit Mobil */
@@ -181,15 +181,16 @@ strong {
 
 /* paket wisata */
 
-.paket-wisata .col-md-4 {
+.paket-wisata .col-md-4{
   margin-bottom: 50px;
 }
 .pin img{
   padding-top: 5px;
-  height: 40px;
+  height:28px;
+  
 }
 .itinerary img, .price img{
-  height: 30px;
+  height: 23px;
 }
 .price{
   margin-left: 40px;
