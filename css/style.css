@@ -138,6 +138,7 @@ strong {
 }
 .box-order img{
   padding-top: 10px;
+  width: 90px;
 }
 .order h3{
   color: rgb(207, 209, 212);
@@ -321,6 +322,7 @@ color:rgb(95, 100, 104);
     font-size: 20px !important;
   }
 
+
   table {
     margin-bottom: 10px;
   }
@@ -337,7 +339,7 @@ color:rgb(95, 100, 104);
     padding-top: 10px;
   }
   .box-order img {
-    width: 50%;
+    width: 30%;
   }
   .box-order h4,
   p {
