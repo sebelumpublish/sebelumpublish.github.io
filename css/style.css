@@ -173,7 +173,7 @@ strong {
   font-size: 1.5rem;
 }
 .why img {
-  width: 40%;
+  width: 50%;
 }
 .box-why {
   margin: 10px;
@@ -351,6 +351,9 @@ color:rgb(95, 100, 104);
   .footer-medsos a{
     font-size: 15px;
     padding-bottom: 5px;
+  }
+  .box-why img{
+    width: 20%;
   }
 }
 
