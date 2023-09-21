@@ -338,17 +338,9 @@ width: 23px;
   }
 
   .wa-logo img {
-    width: 40px;
+    width:15%;
   }
-  .up img {
-    width: 40px;
-  }
-
-  .unit p {
-    font-size: 20px !important;
-  }
-
-
+  
   table {
     margin-bottom: 10px;
   }
@@ -381,10 +373,22 @@ width: 23px;
   .box-why img{
     width: 20%;
   }
+  .wa-footer{
+    margin-bottom: 20px;
+    }
+    .ser{
+      margin-bottom: 20px;
+      }
 }
 
 /* handphone */
 @media (max-width: 450px) {
+  .up img {
+    width: 15%;
+  }
+  .unit p {
+    font-size: 15%!important;
+  }
   .medsos img {
     width: 40px;
   }
@@ -402,7 +406,7 @@ width: 23px;
   }
 
   .paket-wisata h6,
-  a {
+  a{
     font-size: 1.4rem;
   }
 
@@ -413,4 +417,11 @@ width: 23px;
   .footer-medsos img {
     width: 40%;
   }
+  .wa-footer{
+  margin-bottom: 20px;
+  }
+
+  .ser{
+    margin-bottom: 20px;
+    }
 }
