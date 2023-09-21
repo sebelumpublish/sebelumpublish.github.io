@@ -8,9 +8,7 @@
 body {
   overflow-x: hidden;
   background-image: url(../img/kertas.jpg);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- 
-  
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 /* header */
 
@@ -51,21 +49,23 @@ strong {
 /* end header */
 
 /* navigasi */
-
+.navigasi {
+  margin-right: 0 !important;
+  padding-right: 0;
+}
 .navigasi ul {
   list-style: none;
   text-decoration: none;
   position: fixed;
   bottom: 0;
-  padding left:0;
-  
+  padding-left: 10px;
 }
 
 .wa-logo img {
-  width: 11%;
+  width: 13%;
 }
 .up img {
-  width: 11%;
+  width: 13%;
 }
 .to-top {
   opacity: 0;
@@ -77,20 +77,18 @@ strong {
 }
 /* end navigasi */
 
-
 /* text seo */
 
-.text-seo p{
-  font-size: 1.4rem!important;
+.text-seo p {
+  font-size: 1.4rem !important;
   font-family: arial;
   letter-spacing: 1px;
 }
 /* end text seo */
 
-
 /* unit Mobil */
 
-.kartu h3{
+.kartu h3 {
   color: rgb(239, 243, 247);
   background-color: rgb(48, 47, 47);
   font-weight: 600;
@@ -99,7 +97,7 @@ strong {
   font-size: 1.5rem;
 }
 
-.kartu ul{
+.kartu ul {
   padding-top: 30px;
 }
 .kartu ul li {
@@ -134,27 +132,25 @@ strong {
 /* end unit Mobil */
 
 /* cara pemesanan */
-.box-order{
+.box-order {
   border-radius: 10px;
 }
-.box-order img{
+.box-order img {
   padding-top: 10px;
   width: 90px;
 }
-.order h3{
+.order h3 {
   color: rgb(207, 209, 212);
 }
-.box-order h4{
+.box-order h4 {
   font-size: 1.5rem;
   color: rgb(89, 92, 92);
 }
-.box-order p{
-  font-size: 1.1rem!important;
+.box-order p {
+  font-size: 1.1rem !important;
   color: rgb(79, 80, 80);
 }
 /* end cara pemesanan */
-
-
 
 /* why choose us */
 
@@ -162,8 +158,7 @@ strong {
   padding-bottom: 70px;
 }
 .why P {
-  font-size: 1rem!important;
-
+  font-size: 1rem !important;
 }
 .why h3 {
   font-size: 2.8rem;
@@ -183,18 +178,18 @@ strong {
 
 /* paket wisata */
 
-.paket-wisata .col-md-4{
+.paket-wisata .col-md-4 {
   margin-bottom: 50px;
 }
-.pin img{
+.pin img {
   padding-top: 5px;
-  height:28px;
-  
+  height: 28px;
 }
-.itinerary img, .price img{
+.itinerary img,
+.price img {
   height: 23px;
 }
-.price{
+.price {
   margin-left: 40px;
 }
 
@@ -208,8 +203,8 @@ strong {
   font-size: 1.3rem;
   font-weight: 500;
 }
-.paket-wisata p{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.paket-wisata p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .paket-wisata a {
   font-family: "Segoe UI";
@@ -226,84 +221,82 @@ strong {
   background-color: rgb(255, 238, 0);
 }
 
-
 /* waerebo */
-.info h1{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.info h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 /* end waerebo */
 
 /* end paket wisata */
 
 /*tentang kami-page*/
-.tentang-main p{
-font-family: arial;
-font-size: 1.3rem!important;
-letter-spacing: 1px;
+.tentang-main p {
+  font-family: arial;
+  font-size: 1.3rem !important;
+  letter-spacing: 1px;
 }
 
 /*end tentang kami-page*/
 
 /* galery */
-.galery{
+.galery {
   background-image: url(../img/bg-tes.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.galery h3{
-font-size: 3rem!important;
-border-bottom: 1px solid rgb(216, 216, 216);
-width: 190px;
-padding-top: 50px!important;
-color:rgb(95, 100, 104);
+.galery h3 {
+  font-size: 3rem !important;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  width: 190px;
+  padding-top: 50px !important;
+  color: rgb(95, 100, 104);
 }
-.description{
+.description {
   font-size: 1rem;
   font-family: arial;
-  color:rgb(109, 114, 119)
+  color: rgb(109, 114, 119);
 }
 
 /* end galery */
 
 /* footer */
-.footer h6{
+.footer h6 {
   font-size: 1rem !important;
   font-family: arial;
 }
 
-.footer p{
+.footer p {
   font-size: 1rem !important;
   font-family: arial;
 }
 
 .medsos-footer img {
   width: 5%;
-  
 }
 .logo-footer {
   width: 50%;
 }
-.wa-footer a{
+.wa-footer a {
   color: white;
   font-size: 0.9rem;
   text-decoration: none;
 }
-.wa-footer img{
-width: 23px;
+.wa-footer img {
+  width: 23px;
 }
-.wa-footer a span{
+.wa-footer a span {
   padding-left: 5px;
 }
 
-.footer ul li{
+.footer ul li {
   list-style: none;
   font-family: arial;
   font-size: 12px;
 }
-.footer-medsos img{
+.footer-medsos img {
   width: 23px;
 }
-.footer-medsos a{
+.footer-medsos a {
   color: aliceblue;
   text-decoration: none;
   padding: 10px;
@@ -311,7 +304,7 @@ width: 23px;
   color: rgb(228, 166, 42);
   font-size: 0.9rem;
 }
-.footer-medsos span{
+.footer-medsos span {
   padding-left: 5px;
 }
 /* end footer */
@@ -333,14 +326,14 @@ width: 23px;
   .header .nohp {
     font-size: 1.5rem !important;
   }
-  .navbar{
+  .navbar {
     margin-top: 0;
   }
 
   .wa-logo img {
-    width:15%;
+    width: 15%;
   }
-  
+
   table {
     margin-bottom: 10px;
   }
@@ -363,22 +356,22 @@ width: 23px;
   p {
     font-size: 2rem;
   }
-  .footer-medsos a img{
+  .footer-medsos a img {
     width: 4%;
   }
-  .footer-medsos a{
+  .footer-medsos a {
     font-size: 15px;
     padding-bottom: 5px;
   }
-  .box-why img{
+  .box-why img {
     width: 20%;
   }
-  .wa-footer{
+  .wa-footer {
     margin-bottom: 20px;
-    }
-    .ser{
-      margin-bottom: 20px;
-      }
+  }
+  .ser {
+    margin-bottom: 20px;
+  }
 }
 
 /* handphone */
@@ -387,7 +380,7 @@ width: 23px;
     width: 15%;
   }
   .unit p {
-    font-size: 15%!important;
+    font-size: 15% !important;
   }
   .medsos img {
     width: 40px;
@@ -406,7 +399,7 @@ width: 23px;
   }
 
   .paket-wisata h6,
-  a{
+  a {
     font-size: 1.4rem;
   }
 
@@ -417,11 +410,11 @@ width: 23px;
   .footer-medsos img {
     width: 40%;
   }
-  .wa-footer{
-  margin-bottom: 20px;
+  .wa-footer {
+    margin-bottom: 20px;
   }
 
-  .ser{
+  .ser {
     margin-bottom: 20px;
-    }
+  }
 }
