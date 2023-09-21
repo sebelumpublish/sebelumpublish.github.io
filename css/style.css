@@ -13,6 +13,7 @@ body {
   
 }
 /* header */
+
 .header {
   height: 60px;
 }
@@ -225,6 +226,13 @@ strong {
   background-color: rgb(255, 238, 0);
 }
 
+
+/* waerebo */
+.info h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* end waerebo */
+
 /* end paket wisata */
 
 /*tentang kami-page*/
@@ -264,7 +272,7 @@ color:rgb(95, 100, 104);
 }
 
 .footer p{
-  font-size: 0.8rem !important;
+  font-size: 1rem !important;
   font-family: arial;
 }
 
@@ -275,26 +283,37 @@ color:rgb(95, 100, 104);
 .logo-footer {
   width: 50%;
 }
-.wa-footer{
- width: 5%;
+.wa-footer a{
+  color: white;
+  font-size: 0.9rem;
+  text-decoration: none;
 }
+.wa-footer img{
+width: 23px;
+}
+.wa-footer a span{
+  padding-left: 5px;
+}
+
 .footer ul li{
   list-style: none;
   font-family: arial;
   font-size: 12px;
 }
 .footer-medsos img{
-  width: 15px;
+  width: 23px;
 }
 .footer-medsos a{
   color: aliceblue;
   text-decoration: none;
-  padding-left: 10px;
+  padding: 10px;
   font-family: arial;
   color: rgb(228, 166, 42);
-  
+  font-size: 0.9rem;
 }
-
+.footer-medsos span{
+  padding-left: 5px;
+}
 /* end footer */
 
 /* @media queries */
