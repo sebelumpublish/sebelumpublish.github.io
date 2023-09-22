@@ -359,10 +359,6 @@ strong {
     display: none;
   }
 
-  .paket-wisata p {
-    font-size: 1.4rem;
-  }
-
   .box-order img {
     width: 20%;
   }
@@ -371,6 +367,9 @@ strong {
     font-size: 2rem;
   }
 
+  .paket-wisata .col-lg-4 p {
+    font-size: 1.4rem;
+  }
   .footer-medsos a img {
     width: 4%;
   }
