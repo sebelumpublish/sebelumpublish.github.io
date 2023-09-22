@@ -49,10 +49,7 @@ strong {
 /* end header */
 
 /* navigasi */
-.navigasi {
-  margin-right: 0 !important;
-  padding-right: 0;
-}
+
 .navigasi ul {
   list-style: none;
   text-decoration: none;
@@ -205,6 +202,7 @@ strong {
 }
 .paket-wisata p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
 }
 .paket-wisata a {
   font-family: "Segoe UI";
@@ -346,8 +344,12 @@ strong {
   .paket-wisata .col-md-3 {
     width: 40%;
   }
-  .artikel h6 {
-    padding-top: 10px;
+
+  .paket-wisata .col-lg-4 {
+    margin-bottom: 25px;
+  }
+  .paket-wisata p {
+    font-size: 1.4rem;
   }
   .box-order img {
     width: 20%;
@@ -413,7 +415,6 @@ strong {
   .wa-footer {
     margin-bottom: 20px;
   }
-
   .ser {
     margin-bottom: 20px;
   }
