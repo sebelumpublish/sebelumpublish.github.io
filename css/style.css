@@ -178,10 +178,12 @@ strong {
 .paket-wisata .col-md-4 {
   margin-bottom: 50px;
 }
+
 .pin img {
   padding-top: 5px;
   height: 28px;
 }
+
 .itinerary img,
 .price img {
   height: 23px;
@@ -315,6 +317,16 @@ strong {
     font-size: 90%;
   }
 }
+
+/* laptop */
+@media (max-width: 990px) {
+  .kartu ul li {
+    font-size: 0.9rem;
+  }
+  .paket-wisata .col-lg-4 {
+    margin-bottom: 35px;
+  }
+}
 /* tablet */
 @media (max-width: 768px) {
   html {
@@ -332,25 +344,25 @@ strong {
     width: 15%;
   }
 
+  .kartu ul li {
+    font-size: 1rem;
+  }
+
   table {
     margin-bottom: 10px;
   }
+
   .slide-content {
     margin: 0 10px;
   }
   .swiper-navBtn {
     display: none;
   }
-  .paket-wisata .col-md-3 {
-    width: 40%;
-  }
 
-  .paket-wisata .col-lg-4 {
-    margin-bottom: 25px;
-  }
   .paket-wisata p {
     font-size: 1.4rem;
   }
+
   .box-order img {
     width: 20%;
   }
