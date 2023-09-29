@@ -87,7 +87,7 @@ strong {
 
 .kartu h3 {
   color: rgb(239, 243, 247);
-  background-color: rgb(48, 47, 47);
+  background-color: rgb(29, 29, 29);
   font-weight: 600;
   text-align: center;
   padding: 15px;
@@ -227,9 +227,7 @@ strong {
 }
 
 /* waerebo */
-.info h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
+
 /* end waerebo */
 
 /* end paket wisata */
