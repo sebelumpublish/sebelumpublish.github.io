@@ -116,7 +116,7 @@ strong {
   padding: 20px;
 }
 .kartu a:hover {
-  background-color: rgb(252, 255, 71);
+  background-color: rgb(71, 99, 255);
 }
 
 .next-page a {
@@ -124,6 +124,13 @@ strong {
 }
 .next-page a:hover {
   color: rgb(238, 238, 58);
+}
+
+.lk h3:hover {
+  background-color: rgb(30, 30, 236);
+}
+.driver h3:hover {
+  background-color: rgb(30, 30, 236);
 }
 
 /* end unit Mobil */
